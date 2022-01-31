@@ -1,0 +1,22 @@
+td{
+	border: 1px solid;
+}
+td.last{
+	border-right: 1px solid red;
+}
+.row{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+.pixel{
+	width: 1px;
+	height: 1px;
+}
+form{
+	max-width: 300px;
+}
+input{
+	margin-top: 15px;
+}
